@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" routerLink="/">
+      <img src="../assets/quantox.png" width="30px"  alt="Quantox">
+    </a>
+   <ul class="navbar-nav mr-auto">
+		<!-- <li *ngIf="isAuthenticated" class="nav-item">
+		  <a class="nav-link" routerLink="/board">XOXO</a>
+		</li> -->
+		<li *ngIf="!isAuthenticated" style="float: right;" class="nav-item">
+			<a class="nav-link" routerLink="/auth">Login/Register</a>
+		</li>
+		<li *ngIf="isAuthenticated" style="float: right;" class="nav-item">
+			<a class="nav-link" routerLink="/lobby">Lobby</a>
+		</li>
+	</ul>
+	<ul class="navbar-nav ml-auto" style="float:right;">
+		<li *ngIf="isAuthenticated"  class="nav-item">
+			<a class="nav-link" (click)="logout()" routerLink="">Logout</a>
+		</li>
+	</ul>
+</nav>

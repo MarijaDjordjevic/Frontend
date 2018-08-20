@@ -1,0 +1,53 @@
+#lista {
+    color: white;
+}
+#content #izazovi {
+    margin: 0 auto;
+    padding: 50px;
+    display: table;
+    border: 1px solid green;
+    border-radius: 5px;
+    color:white;
+}
+
+option {   
+    width: 90px;
+    height: 25px;
+    color: green;
+    font-weight: bold;
+}
+
+
+select {   
+    width: 90px;
+    height: 25px;
+    color: green;
+    font-weight: bold;
+}
+
+.container {
+    margin: 0 auto;
+    /* position: relative;
+    left: 100px; */
+    color: white;
+    display: table;
+}
+
+#acc {
+    background-color: green;
+    color: white;
+}
+
+#can {
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+}
+
+h2 {
+    color: white;
+}
+
+#ch {
+    color: white;
+}

@@ -1,0 +1,24 @@
+<br>
+<div class="login">
+    <div id="header">
+        <h2>
+            Already have an account?
+        </h2>
+          <h3>Login to QuantoXO</h3>
+      </div>
+      <br>
+      <form>
+        <div class="form-group">
+              <label for="email">Email:</label>
+              <input class="form-control user" type="text" name="email" id="email2" [(ngModel)]="email" />
+        </div>
+         <div class="form-group clearfix">
+              <label for="password">Password:</label>
+              <input class="form-control pass" type="password" name="password" id="password2" [(ngModel)]="password" />
+              <br>
+              <button class="btn btn-lg btn-secondary" type="submit" (click)='login()'>Login</button>
+        </div>            
+      </form>
+  </div>
+  <br>
+  

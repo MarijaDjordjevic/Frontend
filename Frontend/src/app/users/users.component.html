@@ -1,0 +1,32 @@
+<app-header></app-header>
+<div class="container">
+ <div class="row">
+     <div class="col-md-12">
+            <div id="content" >
+                    <div class='part' id='list'>
+                        <h2 id="lista">Already applied users:</h2>
+                        <select [(ngModel)]="selectedUser" id="selUser">
+                            <option *ngFor="let user of users" [ngValue]="user.id"><h3>{{user.name}}</h3></option>
+                        </select>
+                        <br>
+                        <br>
+                        <button class="btn btn-lg btn-secondary" type='submit' id='dugme' (click)='challenge()'>Challenge</button>
+                    </div>
+                </div>
+                <div id="izazovi">
+                  <div *ngFor="let challenge of challenges" class="row challenge">
+                      <h2>Challengers</h2>
+                    <div id='ch'>
+                      {{challenge.challenger.name}}
+                    </div>
+                    <button class="btn btn-lg btn-secondary" id="acc" (click)="accept(challenge)">
+                        Accept
+                    </button>
+                    <button id="can" class="btn btn-lg btn-secondary" (click)="cancel(challenge)">
+                        Cancel
+                    </button>
+                  </div>    
+                </div>
+                </div>
+     </div>
+ </div>

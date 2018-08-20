@@ -1,0 +1,12 @@
+<app-header></app-header>
+<div id="content" >
+    <div class='part' id='list'>
+        <h2 id="lista">Already applied users:</h2>
+        <select [(ngModel)]="selectedUser" id="selUser">
+            <option *ngFor="let user of users" [ngValue]="user.id">{{user.name}}</option>
+        </select>
+        <br>
+        <br>
+        <button class="btn btn-lg btn-secondary" type='submit' id='dugme' (click)='challenge()'>Challenge</button>
+    </div>
+</div>

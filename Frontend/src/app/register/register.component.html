@@ -1,0 +1,31 @@
+<br>
+<div class="register">
+    <div>
+      <h2>
+        Don't  have an account?
+      </h2>
+          <h3>Sign up now</h3>
+      </div><br>
+      <form>
+          <div class="form-group">
+              <label for="name">Name:</label>
+              <input class="form-control user" type="text" name="name" id="name" [(ngModel)]="user.name" />
+          </div>
+          <div class="form-group">
+              <label for="email">Email:</label>
+              <input class="form-control email" type="email" name="email" id="email" [(ngModel)]="user.email"/>
+          </div>
+          <div class="form-group">
+              <label for="password">Password:</label>
+              <input class="form-control pass" type="password" name="password" id="password" [(ngModel)]="user.password"/>
+          </div>
+          <div class="form-group clearfix">  
+              <label for="password">Confirm your password:</label>   
+              <input class="form-control pass" type="password" name="password_confirmation" id="password_confirmation" [(ngModel)]="password_confirmation" />
+              <br>
+              <button class="btn btn-lg btn-secondary" type="submit" (click)='register()'>Register</button>
+          </div>
+      </form>
+  </div>
+ <br> 
+  

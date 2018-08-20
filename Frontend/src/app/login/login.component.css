@@ -1,0 +1,9 @@
+.login {
+   border: green solid 1px;
+   border-radius: 5px;
+   padding: 5px;
+   color:white ;
+   padding-left: 5%;
+   padding-right: 5%;
+   padding-top: 2%;
+}

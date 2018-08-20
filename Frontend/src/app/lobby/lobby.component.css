@@ -1,0 +1,27 @@
+h2 {
+    color: white;
+    text-align: center;
+}
+
+body {
+    width: 70%;
+    height: auto;
+}
+
+.btn {
+    position: relative;
+    left: 20px;
+}
+
+
+#content {
+    margin: 0 auto;
+    padding: 50px;
+    display: table;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+#lista {
+    color: white;
+}

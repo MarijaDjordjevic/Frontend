@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+.btn{
+    background-color: green;
+    color: white;
+}
+.btn:focus {
+    outline: 0 !important;
+    border:none;
+}

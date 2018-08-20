@@ -1,0 +1,16 @@
+#lista {
+    color: white;
+}
+#content {
+    margin: 0 auto;
+    padding: 50px;
+    display: table;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+option {
+    width: 50px;
+    height: 15px;
+    color: green;
+}

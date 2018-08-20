@@ -1,0 +1,54 @@
+body {
+    width: 70%;
+    height: auto;
+}
+
+.mainDiv {
+    margin: auto;
+    display: table;
+}
+
+#boardTable {
+    margin: auto;
+}
+
+#boardTable td {
+    padding: 1%;
+}
+
+.part {
+    display: block;
+    float: left;
+    margin-left: 50px;
+    margin-top: 8px;
+
+}
+
+#list select {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#dugme {
+    margin-top: 5px;
+}
+
+option {
+    color: green;
+    background-color: white;
+    font-weight: bold;
+}
+
+#lista {
+    color: white;
+}
+
+#players {
+    color: white;
+}
+
+#msgGameCreated
+{
+    color: green;
+    margin-top: 5px;
+}

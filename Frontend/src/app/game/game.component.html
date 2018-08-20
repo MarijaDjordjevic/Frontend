@@ -1,0 +1,20 @@
+<app-header></app-header>
+<div class='mainDiv'>
+    <h2>Tic-Tac-Toe</h2>
+    <div class='part' id="boardTable">
+        <table>
+            <tr *ngFor="let value1 of values">
+                <td *ngFor="let value2 of values" (click)="clicked(value1*3+1)" height="150px">
+                    <img src="../../assets/{{m[value]}}" width="150px"></td>
+                <td *ngFor="let value2 of values" (click)="clicked(value1*3+2)" height="150px">
+                    <img src="../../assets/{{m[value]}}" width="150px"></td>
+                <td *ngFor="let value2 of values" (click)="clicked(value1*3+3)" height="150px">
+                    <img src="../../assets/{{m[value]}}" width="150px"></td>
+            </tr>
+        </table>
+        <div *ngIf="gameOver">
+            <p style="color:red;margin:auto;">Game over!</p>
+        </div>
+    </div>
+    
+</div>
